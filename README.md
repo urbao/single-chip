@@ -4,7 +4,7 @@
 
 ## Features
 - Each files contains a weekly lab code
-- environment: neovim 0.8.2 & ubuntu 22.04 LTS
+- environment: neovim 0.8.2
 
 ## Authors
 - [@urbao](https://www.github.com/urbao)
