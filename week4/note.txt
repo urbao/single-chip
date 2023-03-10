@@ -1,0 +1,6 @@
+[name]      Tinkercad 
+[url]       https://www.tinkercad.com/
+[usage]     Used to design and export 3D model
+[others]    default has many well-designed objects
+[output]    *.stl files format
+[reminder]  be careful with `support frame` of 3D objects
