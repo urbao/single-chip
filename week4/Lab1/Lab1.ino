@@ -4,6 +4,7 @@
 #define COLS 4
 const byte colPins[4] = {7, 8, 9, 10};
 const byte rowPins[4] = {3, 4, 5, 6};
+// define keymap of Keypad
 const char keymap[ROWS][COLS] = {
     {'1','2','3','+'}, 
     {'4','5','6','-'}, 
@@ -51,6 +52,7 @@ void loop(){
         if(operand=='-')Serial.println(String(input_num[0].toInt()-input_num[1].toInt()));
         if(operand=='*')Serial.println(String(input_num[0].toInt()*input_num[1].toInt()));
         if(operand=='/')Serial.println(String(input_num[0].toInt()/input_num[1].toInt()));
+        // reset all variables to original stats
         input_num[0]="";
         input_num[1]="";
         operand='#';
