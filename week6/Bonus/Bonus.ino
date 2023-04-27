@@ -33,7 +33,7 @@ void setup() {
   }
   for (int i = 0; i < 8; i++) {
     pinMode(SEG[i], OUTPUT);
-    digitalWrite(SEG_COM[i], HIGH);
+    digitalWrite(SEG[i], HIGH);
   }
 }
 
